@@ -1,4 +1,5 @@
 import useLanguage from '../hooks/useLanguage';
+import './styles.css'; // CSS dosyasını import et
 
 const LanguageChanger = () => {
   const { language, setLanguage, translations } = useLanguage();
@@ -6,7 +7,7 @@ const LanguageChanger = () => {
   return (
     <button
       onClick={() => setLanguage(language === 'en' ? 'tr' : 'en')}
-      className="fixed top-4 right-4 bg-blue-500 text-white py-2 px-4 rounded"
+      className="language-changer-btn"
     >
       {translations.changeLanguage}
     </button>

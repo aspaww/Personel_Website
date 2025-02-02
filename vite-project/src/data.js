@@ -4,11 +4,11 @@ const languagesData = {
 	    hero: {
 		  greeting: "Hi! 👋",
 		  intro: " I'm a front-end developer. I can craft solid and scalable front-end products. Let's meet!",
-		  profileImg: "/src/assets/images/cv.jpg",
+		  profileImg: "vite-project/public/assests/cv.jpg",
 		  profileName: "I'm Şükrü.",
-		  linkedInSVG: "/src/assets/images/linkedIn.SVG",
+		  linkedInSVG: "vite-project/public/assests/linkedIn.SVG",
 		  linkedInLink: "www.linkedin.com/in/şükrü-keleş-59a0a0228",
-		  githubSVG: "/src/assets/images/github.SVG",
+		  githubSVG: "vite-project/public/github.SVG",
 		  githubLink: "https://github.com/aspaww",
 		  heroFooter: "Currently Freelancing for UX,UI, & Web Design Project.",
 		  heroFooter2: "Invite me to join your team -> ",
@@ -19,27 +19,27 @@ const languagesData = {
 		  images: [
 			{
 			    Alt: "JAVASCRIPT",
-			    SRC: "/src/assets/images/javascript.png",
+			    SRC: "vite-project/public/assests/javascript.png",
 			},
 			{
 			    Alt: "REACT",
-			    SRC: "/src/assets/images/react.png",
+			    SRC: "vite-project/public/assests/react.png",
 			},
 			{
 			    Alt: "REDUX",
-			    SRC: "/src/assets/images/redux.png",
+			    SRC: "/assets/images/redux.png",
 			},
 			{
 			    Alt: "NODE",
-			    SRC: "/src/assets/images/node.png",
+			    SRC: "/assets/images/node.png",
 			},
 			{
 			    Alt: "VS CODE",
-			    SRC: "/src/assets/images/vscode.png",
+			    SRC: "/assets/images/vscode.png",
 			},
 			{
 			    Alt: "FIGMA",
-			    SRC: "/src/assets/images/figma.png",
+			    SRC: "/assets/images/figma.png",
 			}
 		  ]
 	    }
@@ -123,27 +123,27 @@ const languagesData = {
 		  images: [
 			{
 			    Alt: "JAVASCRIPT",
-			    SRC: "/src/assets/images/javascript.png",
+			    SRC: "/assets/images/javascript.png",
 			},
 			{
 			    Alt: "REACT",
-			    SRC: "/src/assets/images/react.png",
+			    SRC: "/assets/images/react.png",
 			},
 			{
 			    Alt: "REDUX",
-			    SRC: "/src/assets/images/redux.png",
+			    SRC: "/assets/images/redux.png",
 			},
 			{
 			    Alt: "NODE",
-			    SRC: "/src/assets/images/node.png",
+			    SRC: "/assets/images/node.png",
 			},
 			{
 			    Alt: "VS CODE",
-			    SRC: "/src/assets/images/vscode.png",
+			    SRC: "/assets/images/vscode.png",
 			},
 			{
 			    Alt: "FIGMA",
-			    SRC: "/src/assets/images/figma.png",
+			    SRC: "/assets/images/figma.png",
 			}
 		  ]
 	    }
@@ -199,13 +199,13 @@ const languagesData = {
 	    footer: {
 		  h1: "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
 		  githubText: "Github",
-		  githubLink: "https://github.com/batuwankenobi",
+		  githubLink: "https://github.com/aspaww",
 		  personelBlogText: "Personel Blog",
 		  personelBlogLink: "",
 		  linkedInText: "Linkedin",
-		  linkedInLink: "https://www.linkedin.com/in/batuhan-bartu-bebek/",
+		  linkedInLink: "www.linkedin.com/in/şükrü-keleş-59a0a0228",
 		  emailText: "Email",
-		  emailLink: "batuhanbartuu@gmail.com",
+		  emailLink: "skrcnklsss@gmail.com",
 	    }
 	}
   }

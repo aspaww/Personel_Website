@@ -1,9 +1,8 @@
+
+
 .dark {
   --background: 240 10% 3.9%;
   --foreground: 0 0% 98%;
   
   /* Diğer custom CSS değişkenleri */
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
