@@ -74,8 +74,8 @@ const languagesData = {
 			    viewText: "View on Github",
 			    viewLink: "https://github.com/aspaww/Witflix-",
 			    appText: "Go to app ->",
-			    appLink: "https://witflix-master.vercel.app/",
-			    imgLink: "assets/images/witflix_clone.png",
+			    appLink: "",
+			    imgLink: "",
 			},
 		 
 			{
@@ -179,8 +179,8 @@ const languagesData = {
 			    viewText: "Github' ta göster",
 			    viewLink: "https://github.com/aspaww/Witflix-",
 			    appText: "Uygulamaya git ->",
-			    appLink: "https://witflix-master.vercel.app/",
-			    imgLink: "assets/images/witflix_clone.png",
+			    appLink: "",
+			    imgLink: "",
 			},
 			 
 			{
@@ -191,8 +191,8 @@ const languagesData = {
 			    viewText: "Github' ta göster",
 			    viewLink: "https://github.com/aspaww/Pizza",
 			    appText: "Uygulamaya git ->",
-			    appLink: "https://pizza-time-to.vercel.app/",
-			    imgLink: "assets/images/reactPizza.png",
+			    appLink: "",
+			    imgLink: "",
 			},
 		  ],
 	    },
