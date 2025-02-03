@@ -1,52 +1,82 @@
-import '../styles/Profile.css';
 import useLanguage from "../hooks/useLanguage";
+import '../styles/Profile.css';
 
-export default function Profile() {
-  const { translate } = useLanguage();
-  const profile = translate("profile");
+function Profile() {
+    const { translate } = useLanguage();
+    const profile = translate("profile");
 
-  return (
-    <section className="profile-section">
-      <div className="decorative-stripe"></div>
-      
-      <div className="profile-content">
-        <h1 className="profile-title">{profile.profileText}</h1>
-        
-        <div className="profile-card-container">
-          <div className="profile-card-inner">
-            <h1 className="card-title">{profile.cart.h1}</h1>
+    return (
+        <section className="profile-section">
+            <div className="profile-decoration"></div>
             
-            <div className="info-container">
-              <div className="info-row">
-                <span className="info-label">{profile.cart.dateOfBirthText}</span>
-                <span className="info-value">{profile.cart.dateOfBirth}</span>
-              </div>
-              
-              <div className="info-row">
-                <span className="info-label">{profile.cart.cityText}</span>
-                <span className="info-value">{profile.cart.city}</span>
-              </div>
-              
-              <div className="info-row">
-                <span className="info-label">{profile.cart.educationText}</span>
-                <span className="info-value">{profile.cart.education}</span>
-              </div>
-              
-              <div className="info-row">
-                <span className="info-label">{profile.cart.rolText}</span>
-                <span className="info-value">{profile.cart.rol}</span>
-              </div>
-            </div>
-          </div>
-        </div>
+            <div className="profile-content">
+                <h1 className="profile-heading">
+                    {profile.profileText}
+                </h1>
 
-        <div className="about-section">
-          <div className="blue-border"></div>
-          <h1 className="about-title">{profile.about.aboutMe}</h1>
-          <p className="about-text">{profile.about.text1}</p>
-          <p className="about-text">{profile.about.text2}</p>
-        </div>
-      </div>
-    </section>
-  );
+                <div className="profile-card-wrapper">
+                    {/* Left Side - Basic Info Card */}
+                    <div className="profile-card-container">
+                        <div className="profile-card-inner">
+                            <h1 className="card-title">
+                                {profile.cart.h1}
+                            </h1>
+                            
+                            <div className="info-container">
+                                <div className="info-section">
+                                    <div className="info-row">
+                                        <div className="info-label">
+                                            {profile.cart.dateOfBirthText}
+                                        </div>
+                                        <div className="info-value">
+                                            {profile.cart.dateOfBirth}
+                                        </div>
+                                    </div>
+
+                                    <div className="info-row">
+                                        <div className="info-label">
+                                            {profile.cart.cityText}
+                                        </div>
+                                        <div className="info-value">
+                                            {profile.cart.city}
+                                        </div>
+                                    </div>
+
+                                    <div className="info-row">
+                                        <div className="info-label">
+                                            {profile.cart.educationText}
+                                        </div>
+                                        <div className="info-value">
+                                            {profile.cart.education}
+                                        </div>
+                                    </div>
+
+                                    <div className="info-row">
+                                        <div className="info-label">
+                                            {profile.cart.rolText}
+                                        </div>
+                                        <div className="info-value">
+                                            {profile.cart.rol}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Right Side - About Section */}
+                    <div className="about-section">
+                        <div className="blue-underline"></div>
+                        <h1 className="about-heading">
+                            {profile.about.aboutMe}
+                        </h1>
+                        <p className="about-text">{profile.about.text1}</p>
+                        <p className="about-text">{profile.about.text2}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
 }
+
+export default Profile;

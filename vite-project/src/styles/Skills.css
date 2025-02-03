@@ -1,77 +1,77 @@
 /* Genel Skills section ayarları */
 .skills-section {
-    padding-bottom: 6rem;            /* pb-24: 6rem */
-    min-height: 20rem;               /* min-h-80: 80/4 = 20rem (varsayılan spacing scale'e göre) */
-    text-align: center;              /* text-center */
-    background-color: #FFFFFF;       /* bg-[#FFFFFF] */
+    padding-bottom: 6rem;           
+    min-height: 20rem;               
+    text-align: center;             
+    background-color: #FFFFFF;     
   }
   
   /* Dark mod için skills section */
   .dark .skills-section {
-    background-color: #484148;       /* dark:bg-[#484148] */
-    color: #F4F4F4;                  /* dark:text-[#F4F4F4] */
+    background-color: #484148;       
+    color: #F4F4F4;                
   }
   
 
   
   /* İçerik kapsayıcısı: Yatay padding */
   .content-container {
-    padding-left: 18vw;              /* px-[18vw] */
+    padding-left: 18vw;          
     padding-right: 18vw;
   }
   
   /* Başlık (h1) */
   .skills-heading {
-    margin-top: 2.5rem;              /* my-10: 2.5rem üst */
-    margin-bottom: 2.5rem;           /* my-10: 2.5rem alt */
-    font-weight: 500;                /* font-medium */
-    font-size: 3rem;                 /* text-5xl */
-    line-height: 1.25;               /* leading-tight (yaklaşık 1.25) */
-    letter-spacing: normal;          /* tracking-normal */
+    margin-top: 2.5rem;             
+    margin-bottom: 2.5rem;           
+    font-weight: 500;                
+    font-size: 3rem;                
+    line-height: 1.25;               
+    letter-spacing: normal;         
   }
   
   /* Resimleri kapsayan container */
   .images-container {
-    display: flex;                   /* flex */
-    flex-direction: row;             /* flex-row */
-    justify-content: space-evenly;   /* justify-evenly */
-    flex-wrap: wrap;                 /* flex-wrap */
+    display: flex;                   
+    flex-direction: row;             
+    justify-content: space-evenly;   
+    flex-wrap: wrap;                
   }
   
   /* Her bir resim ve açıklaması için kapsayıcı */
   .image-item {
-    display: flex;                   /* flex */
-    flex-direction: column;          /* flex-col */
-    width: 6rem;                     /* size-24: varsayım olarak 24/4 = 6rem */
-    margin-left: 4vw;                /* ml-[4vw] */
-    margin-top: 2.5rem;              /* mt-10: 2.5rem */
+    display: flex;                
+    flex-direction: column;         
+    width: 6rem;                    
+    margin-left: 4vw;              
+    margin-top: 2.5rem;              
   }
   
   /* Resme ait açıklama paragrafı */
   .image-caption {
-    font-weight: 500;                /* font-medium */
-    font-size: 1rem;                 /* text-base */
-    margin: 0.25rem;                 /* m-1: 0.25rem tüm kenarlar */
-    line-height: 2.25rem;            /* leading-9: 2.25rem */
-    opacity: 0.65;                   /* opacity-65 */
-    color: #777777;                  /* text-[#777777] */
+    font-weight: 500;               
+    font-size: 1rem;                 
+    margin: 0.25rem;                
+    line-height: 2.25rem;           
+    opacity: 0.65;                  
+    color: #777777;                
   }
   
   /* Dark mod için resim açıklaması renk ayarı */
   .dark .image-caption {
-    color: #D9D9D9;                 /* dark:text-[#D9D9D9] */
+    color: #D9D9D9;            
   }
   
 
   .decorative-large-circle2 {
-    width: 8rem;   /* w-32 = 8rem */
-    height: 8rem;  /* h-32 = 8rem */
-    border-width: 16px;  /* border-[16px] */
-    border-style: solid; /* border-solid */
+    width: 8rem; 
+    height: 8rem; 
+    border-width: 16px;  
+    border-style: solid; 
     border-color: #D9D9D9;
     border-radius: 50%;
-    margin-right: 30rem;   /* mr-[25vw] */
-    margin-top: -18rem;  /* -mb-16 = -4rem */
+    margin-right: 30rem;  
+    margin-top: -18rem;  
     align-self: end;
     justify-self: end;
     justify-content: right;
