@@ -4,6 +4,7 @@ import Header from './components/Header.jsx';
 import Profile from './components/Profile.jsx';
 import Skills from './components/Skills.jsx';
 import Projects from './components/Projects.jsx';
+import Footer from './components/Footer.jsx';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Skills />
       <Profile />
       <Projects />
+      <Footer />
     </LanguageProvider>
   );
 }

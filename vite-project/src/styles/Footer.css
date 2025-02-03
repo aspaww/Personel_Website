@@ -1,0 +1,81 @@
+.footer-container {
+    background-color: #F4F4F4;
+    color: #000000;
+    padding: 6rem 18vw;
+    text-align: center;
+}
+
+.dark .footer-container {
+    background-color: #2A262B;
+    color: #FFFFFF;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 24rem;
+    position: relative;
+    text-align: right;
+    margin-right: 2.5rem;
+}
+
+.footer-title-underline {
+    border-bottom: 15px solid #82BBFF;
+    width: 9rem;
+    border-radius: 0.25rem;
+    align-self: flex-end;
+    margin-right: 4rem;
+    margin-bottom: -2.5rem;
+}
+
+.dark .footer-title-underline {
+    border-color: #3968A0;
+}
+
+.footer-title {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: normal;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.footer-link {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.footer-link-github {
+    color: #82BBFF;
+}
+
+.footer-link-blog {
+    color: #0A0A14;
+}
+
+.dark .footer-link-blog {
+    color: #FFFFFF;
+}
+
+.footer-link-linkedin {
+    color: #419CCB;
+}
+
+.footer-link-email {
+    color: #EA2678;
+}

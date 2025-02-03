@@ -1,0 +1,188 @@
+/* Genel header ayarları */
+.header {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    padding-top: 6rem; /* Tailwind pt-24 = 6rem */
+    transition-duration: 500ms;
+    background-color: #F4F4F4;
+    /* Varsayılan metin rengi tarayıcı varsayılana bırakıldı */
+  }
+  
+  /* Dark mod için header */
+  .dark .header {
+    background-color: #2A262B;
+    color: #FFFFFF;
+  }
+  
+  /* Sayfanın yanlardan boşluklandırılması (padding x: 18vw) */
+  .container {
+    padding-left: 18vw;
+    padding-right: 18vw;
+  }
+  
+  /* Üst sol dekoratif yuvarlak şekil */
+  .decorative-circle {
+    width: 8rem;   /* w-32 = 8rem */
+    height: 8rem;  /* h-32 = 8rem */
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    margin-top: -11rem; /* -mt-36 = -9rem */
+    margin-left: 6rem; /* ml-24 = 6rem */
+  }
+  
+  /* Tema/Dil değiştirme alanı */
+  .mode-lang-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2.5rem; /* mb-10 = 2.5rem */
+  }
+  
+  /* Ayırıcı dikey çizgi */
+  .separator {
+    font-weight: 600; /* font-semibold */
+    margin-left: 0.5rem;  /* mx-2 => her iki yan için 0.5rem */
+    margin-right: 0.5rem;
+    align-self: center;
+  }
+  
+  /* Ana içerik alanı */
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  /* Profil bilgileri kapsayıcısı */
+  .profile-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  @media (min-width: 1024px) {
+    /* lg ekranlarda (min-width: 1024px) */
+    .profile-container {
+      flex-wrap: nowrap;
+      /* Tailwind’de lg:justify-self-start özelliği burada uygulanmasa da yerleşim etkilenecektir. */
+    }
+  }
+  
+  /* Profil kutusu (kırmızı arka plan) */
+  .profile-box {
+    background-color: #E92577;
+    padding-top: 1rem;  /* pt-4 = 1rem */
+    padding-left: 1rem; /* pl-4 = 1rem */
+    border-radius: 1rem; /* rounded-2xl (yaklaşık 1rem) */
+    max-width: 16rem;    /* max-w-64 = 16rem */
+    min-width: 14rem;    /* min-w-56 = 14rem */
+    min-height: 11rem;   /* min-h-44 = 11rem */
+    max-height: 16rem;   /* max-h-64 = 16rem */
+    display: flex;
+    margin: 2.5rem;      /* m-10 = 2.5rem */
+  }
+  
+  /* Profil resmi */
+  .profile-img {
+    border-radius: 1rem;  /* rounded-2xl */
+    margin-left: 0.25rem; /* ms-1 = 0.25rem */
+    margin-bottom: -2.75rem; /* -mb-11 = -2.75rem */
+  }
+  
+  /* Profil detayları alanı */
+  .profile-details {
+    width: 45rem; /* w-45 – Tailwind'de standart olmasa da örneğin geniş detay kutusu */
+  }
+  
+  /* Selamlama başlığı */
+  .greeting {
+    font-weight: 400;         /* font-normal */
+    font-size: 1.875rem;      /* text-3xl yaklaşık 1.875rem */
+    line-height: 2.25rem;     /* leading-9 = 2.25rem */
+    letter-spacing: 0.05em;   /* tracking-wide */
+  }
+  
+  /* Alt çizgi (vurgulayıcı kırmızı çizgi) */
+  .underline {
+    border-bottom-width: 24px; /* border-b-[24px] */
+    margin-left: -1rem;        /* -ml-4 = -1rem */
+    border-radius: 0.5rem;       /* rounded-lg (yaklaşık 0.5rem) */
+    border-style: solid;
+    width: 12rem;              /* w-48 = 12rem */
+    margin-top: 4rem;          /* mt-16 = 4rem */
+    border-color: #E92577;
+    /* Sadece alt kenara uygulanacak şekilde */
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+  
+  /* Profil adı ve tanıtım yazısı */
+  .profile-intro {
+    font-size: 3rem;          /* text-5xl = 3rem */
+    margin-top: -4rem;        /* -mt-16 = -4rem */
+    font-weight: 500;         /* font-medium */
+    line-height: 1.375;       /* leading-snug */
+    letter-spacing: normal;   /* tracking-normal */
+  }
+  
+  /* Sosyal medya ikonlarını kapsayan alan */
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5rem;       /* mt-10 = 2.5rem */
+  }
+  
+  /* Sosyal ikon genel ayarları */
+  .social-icon {
+    /* İlk ikonda margin-right uygulanıyor */
+    margin-right: 1.25rem;    /* mr-5 = 1.25rem */
+  }
+  
+  /* Dark mod için sosyal ikon renkleri */
+  .dark .social-icon {
+    stroke: #2A262B;
+    fill: #2A262B;
+  }
+  
+  /* Eğer ihtiyaç duyulursa genel margin-right sınıfı */
+  .mr-5 {
+    margin-right: 1.25rem;
+  }
+  
+  /* Alt bilgi paragrafı */
+  .hero-footer {
+    margin-top: 1.25rem; /* mt-5 = 1.25rem */
+  }
+  
+  /* E-posta linki */
+  .email-link {
+    color: #E92577;
+  }
+  
+  /* Sağ alt dekoratif yarım daire */
+  .decorative-half-circle {
+    width: 8rem;   /* w-32 = 8rem */
+    height: 4rem;  /* h-16 = 4rem */
+    background-color: #EA2678;
+    /* Yalnızca sol kenar yuvarlak */
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    /* Yerleşim için */
+    justify-self:end;
+  }
+  
+  /* Sağ alt büyük dekoratif daire */
+  .decorative-large-circle {
+    width: 8rem;   /* w-32 = 8rem */
+    height: 8rem;  /* h-32 = 8rem */
+    border-width: 16px;  /* border-[16px] */
+    border-style: solid; /* border-solid */
+    border-color: #D9D9D9;
+    border-radius: 50%;
+    margin-right: 25vw;   /* mr-[25vw] */
+    margin-bottom: -8rem;  /* -mb-16 = -4rem */
+    align-self: end;
+    justify-self: end;
+  }
+  

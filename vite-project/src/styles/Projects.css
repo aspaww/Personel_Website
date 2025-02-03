@@ -1,0 +1,94 @@
+/* Genel Stil */
+.projects-container {
+    padding: 6rem 18vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #000000;
+}
+
+.dark .projects-container {
+    background-color: #484148;
+    color: #F4F4F4;
+}
+
+.projects-title {
+    margin: 2.5rem 0;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 2.5rem;
+}
+
+.project-card {
+    width: 24rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem 1rem;
+    margin: 0.75rem;
+    background-color: #DDEEFE;
+    border-radius: 1rem;
+}
+
+.dark .project-card {
+    background-color: #2D3235;
+}
+
+.project-title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    margin-top: 1.25rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.project-description {
+    margin: 1.25rem 0;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 0.05rem;
+}
+
+.project-materials {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-materials p {
+    padding: 0.25rem 0.5rem;
+    margin: 0.5rem;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+}
+
+.dark .project-materials p {
+    background-color: #525252;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.25rem 0;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.project-img {
+    margin-top: auto;
+    margin-bottom: -1.5rem;
+}
