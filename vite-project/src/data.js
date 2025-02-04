@@ -6,9 +6,9 @@ const languagesData = {
 		  intro: " I'm a front-end developer. I can craft solid and scalable front-end products. Let's meet!",
 		  profileImg: "/assests/cv.jpg",
 		  profileName: "I'm Şükrü.",
-		  linkedInSVG: "",
+		  linkedInSVG: "/assests/linkedIn.svg",
 		  linkedInLink: "www.linkedin.com/in/şükrü-keleş-59a0a0228",
-		  githubSVG: "vite-project/public/github.SVG",
+		  githubSVG: "/assests/github.svg",
 		  githubLink: "https://github.com/aspaww",
 		  heroFooter: "Currently Freelancing for UX,UI, & Web Design Project.",
 		  heroFooter2: "Invite me to join your team -> ",
@@ -40,10 +40,6 @@ const languagesData = {
 			{
 			    Alt: "FIGMA",
 			    SRC: "/assests/figma.png",
-			},
-			{
-			    Alt: "CSS",
-			    SRC: "/assests/css.png",
 			}
 		  ]
 	    }
@@ -90,7 +86,7 @@ const languagesData = {
 			    viewText: "View on Github",
 			    viewLink: "https://github.com/aspaww/Pizza",
 			    appText: "Go to app ->",
-			    appLink: "react-pizza-project-eight.vercel.app/",
+			    appLink: "https://pizza-ecru-nine.vercel.app/",
 			    imgLink: "assets/images/reactPizza.png",
 			},
 		  ],
@@ -114,9 +110,9 @@ const languagesData = {
 		  intro: " Ben bir ön yüz geliştiricisiyim. Sağlam ve ölçeklenebilir ön yüz ürünleri oluşturabilirim. Tanışalım!",
 		  profileImg: "/assests/cv.jpg",
 		  profileName: "Ben Şükrü.",
-		  linkedInSVG: "",
+		  linkedInSVG: "/assests/linkedIn.svg",
 		  linkedInLink: "www.linkedin.com/in/şükrü-keleş-59a0a0228",
-		  githubSVG: "",
+		  githubSVG: "/assests/github.svg",
 		  githubLink: "https://github.com/aspaww",
 		  heroFooter: "Şu anda UX, UI ve Web Tasarım projeleri için serbest çalışıyorum.",
 		  heroFooter2: "Beni ekibinize davet edin -> ",
@@ -148,10 +144,6 @@ const languagesData = {
 			{
 			    Alt: "FIGMA",
 			    SRC: "/assests/figma.png",
-			},
-			{
-			    Alt: "CSS",
-			    SRC: "/assests/css.png",
 			}
 		  ]
 	    }
@@ -199,8 +191,8 @@ const languagesData = {
 			    viewText: "Github' ta göster",
 			    viewLink: "https://github.com/aspaww/Pizza",
 			    appText: "Uygulamaya git ->",
-			    appLink: "",
-			    imgLink: "",
+			    appLink: "https://pizza-ecru-nine.vercel.app/",
+			    imgLink: "/assests/reactPizza.png",
 			},
 		  ],
 	    },
