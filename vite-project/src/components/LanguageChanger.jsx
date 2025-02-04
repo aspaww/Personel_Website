@@ -1,4 +1,5 @@
 import useLanguage from "../hooks/useLanguage";
+import "../styles/Lan.css"; 
 
 function LanguageChanger() {
   const { language, setLanguage, translate } = useLanguage();
@@ -18,7 +19,7 @@ function LanguageChanger() {
       {language === 'en' ? (
         <>
           <span className="language-text active">{changeLanguage}</span>
-          <span className="language-text">` YE GEÇ</span>
+          <span className="language-text">YE GEÇ</span>
         </>
       ) : (
         <>

@@ -1,0 +1,34 @@
+/* LanguageChanger.css */
+.language-changer-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background-color: var(--lang-bg, #E92577);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .language-changer-btn:hover {
+    background-color: var(--lang-hover-bg, #e53e3e);
+  }
+  
+  .language-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--lang-text-color, #ffffff);
+    transition: all 0.3s ease;
+  }
+  
+  .language-text.active {
+    transform: scale(1.05);
+  }
+  
+  /* Dark Mode Styles */
+  body.dark .language-changer-btn {
+    --lang-bg: #3182ce;
+    --lang-hover-bg: #3182ce;
+    --lang-text-color: #ffffff;
+  }
