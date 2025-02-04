@@ -3,7 +3,7 @@
   background-color: #F4F4F4;
   padding: 6rem 0;
   text-align: center;
-  color: #000000; /* Açık tema için metin rengi */
+  color: #000000; 
 }
 
 /* Dark mode for profile section */
@@ -14,13 +14,17 @@
 
 /* Decorative ribbon */
 .profile-decoration {
-  width: 5rem;
-  height: 5rem;
-  border: 1rem solid #E92577;
-  border-radius: 9999%;
-  margin-top: -9.5rem;
-  margin-right: -3rem;
-  float: right;
+  width: 3rem;              
+  height: 5rem;                
+  border-left-width: 1rem;    
+  border-top-width: 1rem;       
+  border-bottom-width: 1rem;      
+  border-style: solid;           
+  border-color: #EA2678;          
+  border-top-left-radius: 9999px; 
+  border-bottom-left-radius: 9999px; 
+  margin-top: -9rem;             
+  place-self: end;  
 }
 
 /* Content container */
@@ -119,6 +123,7 @@
   max-width: 40rem;
   text-align: left;
   position: relative;
+  margin-top: rem;
 }
 
 /* Blue underline */
@@ -126,7 +131,6 @@
   border-bottom: 0.9375rem solid #82BBFF;
   border-radius: 0.25rem;
   width: 6rem;
-  margin-bottom: 1.5rem;
 }
 
 /* About heading */

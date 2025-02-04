@@ -76,3 +76,23 @@
     justify-self: end;
     justify-content: right;
   }
+  .decorative-half-circle3 {
+    width: 8rem;   
+    height: 4rem; 
+    background-color: #525252;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    justify-self: flex-start;
+    margin-top: 12rem;
+  }
+
+.dark .decorative-half-circle3 {
+  width: 8rem;   
+  height: 4rem; 
+  background-color: #F4F4F4;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  justify-self: flex-start;
+  margin-top: 12rem;
+}
+  

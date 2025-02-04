@@ -15,7 +15,6 @@ function Profile() {
                 </h1>
 
                 <div className="profile-card-wrapper">
-                    {/* Left Side - Basic Info Card */}
                     <div className="profile-card-container">
                         <div className="profile-card-inner">
                             <h1 className="card-title">
@@ -64,7 +63,6 @@ function Profile() {
                         </div>
                     </div>
 
-                    {/* Right Side - About Section */}
                     <div className="about-section">
                         <div className="blue-underline"></div>
                         <h1 className="about-heading">

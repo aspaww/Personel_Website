@@ -5,31 +5,26 @@ import "../styles/Header.css";
 
 export default function Header() {
   const { translate } = useLanguage();
-  // useLanguage hook'u ile `translate` fonksiyonunu alıyoruz.
   const hero = translate("hero");
 
   return (
     <>
       <header className="header">
-        {/* Header: font-family, text-align, padding-top, transition, arka plan ve dark mod ayarları */}
+
         <div className="container">
-          {/* Sayfa kenar boşlukları (padding x: 18vw) */}
+
           <div className="decorative-circle"></div>
-          {/* Dekoratif yuvarlak şekil */}
+
 
           <div className="mode-lang-container">
             <ModeComponent />
-            {/* Karanlık mod değiştirici */}
             <p className="separator">| </p>
-            {/* Ayırıcı dik çizgi */}
             <LanguageChanger />
-            {/* Dil değiştirici */}
+
           </div>
 
           <div className="main-content">
-            {/* Ana içerik alanı */}
             <div className="profile-container">
-              {/* Profil resmi ve detayları kapsayıcı; küçük ekranlarda alt alta, lg'de yan yana */}
               <div className="profile-box">
                 <a
                   href=""
