@@ -1,4 +1,3 @@
-// src/contexts/LanguageContext.jsx
 import { createContext, useState, useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
@@ -8,18 +7,22 @@ import languagesData from '../data';
 const LanguageContext = createContext();
 
 const LanguageProvider = ({ children }) => {
+  // Local storage'dan dil tercihini oku veya tarayıcı dilini kullan
+  const savedLanguage = localStorage.getItem('preferredLanguage');
   const browserLanguage = navigator.language.split('-')[0];
-  const defaultLanguage = browserLanguage === 'tr' ? 'tr' : 'en';
+  const defaultLanguage = savedLanguage || (browserLanguage === 'tr' ? 'tr' : 'en');
   const [language, setLanguage] = useState(defaultLanguage);
   const [translations, setTranslations] = useState(languagesData[defaultLanguage]);
   const [isLoading, setIsLoading] = useState(true);
 
+  // Dil değişikliğini yöneten fonksiyon
   const handleLanguageChange = async (newLang) => {
     try {
       setIsLoading(true);
       await axios.post('https://reqres.in/api/workintech', { lang: newLang });
       setTranslations(languagesData[newLang]);
       setLanguage(newLang);
+      localStorage.setItem('preferredLanguage', newLang); // Local storage'a kaydet
       toast.success(newLang === 'tr' ? 'Dil değiştirildi!' : 'Language changed!');
     } catch {
       toast.error(newLang === 'tr' ? 'Dil değiştirme hatası!' : 'Language change error!');
@@ -28,6 +31,7 @@ const LanguageProvider = ({ children }) => {
     }
   };
 
+  // Sayfa yüklendiğinde dil tercihini ayarla
   useEffect(() => {
     const initializeTranslations = async () => {
       try {
@@ -40,7 +44,7 @@ const LanguageProvider = ({ children }) => {
         setIsLoading(false);
       }
     };
-    
+
     initializeTranslations();
   }, [language]);
 
@@ -73,7 +77,6 @@ LanguageProvider.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-// Hook'u ayrı bir dosyada kullanmak için
 export const useLanguage = () => {
   const context = useContext(LanguageContext);
   if (!context) {
