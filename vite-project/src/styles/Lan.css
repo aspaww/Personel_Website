@@ -12,7 +12,7 @@
   }
   
   .language-changer-btn:hover {
-    background-color: var(--lang-hover-bg, #e53e3e);
+    background-color: var(--lang-hover-bg, #E92577);
   }
   
   .language-text {
@@ -28,7 +28,6 @@
   
   /* Dark Mode Styles */
   body.dark .language-changer-btn {
-    --lang-bg: #3182ce;
-    --lang-hover-bg: #3182ce;
+    --lang-bg: #E92577;
     --lang-text-color: #ffffff;
   }

@@ -2,7 +2,6 @@
 .mode-toggle-container {
     display: flex;
     align-items: center;
-    justify-content: end;
     gap: 8px;
     padding: 8px 12px;
     border-radius: 999px;
@@ -10,6 +9,7 @@
     background-color: var(--mode-bg, #f7fafc);
     cursor: pointer;
     border: none;
+    margin-left: 45rem ;
   }
   
   .mode-toggle-container:hover {
