@@ -4,7 +4,7 @@ const languagesData = {
 	    hero: {
 		  greeting: "Hi! 👋",
 		  intro: " I'm a front-end developer. I can craft solid and scalable front-end products. Let's meet!",
-		  profileImg: "vite-project/public/assests/cv.jpg",
+		  profileImg: "/assests/cv.jpg",
 		  profileName: "I'm Şükrü.",
 		  linkedInSVG: "",
 		  linkedInLink: "www.linkedin.com/in/şükrü-keleş-59a0a0228",
@@ -19,27 +19,31 @@ const languagesData = {
 		  images: [
 			{
 			    Alt: "JAVASCRIPT",
-			    SRC: "vite-project/public/assests/javascript.png",
+			    SRC: "/assests/javascript.png",
 			},
 			{
 			    Alt: "REACT",
-			    SRC: "vite-project/public/assests/react.png",
+			    SRC: "/assests/react.png",
 			},
 			{
 			    Alt: "REDUX",
-			    SRC: "/assets/images/redux.png",
+			    SRC: "/assests/redux.png",
 			},
 			{
 			    Alt: "NODE",
-			    SRC: "/assets/images/node.png",
+			    SRC: "/assests/node.png",
 			},
 			{
 			    Alt: "VS CODE",
-			    SRC: "/assets/images/vscode.png",
+			    SRC: "/assests/vscode.png",
 			},
 			{
 			    Alt: "FIGMA",
-			    SRC: "/assets/images/figma.png",
+			    SRC: "/assests/figma.png",
+			},
+			{
+			    Alt: "CSS",
+			    SRC: "/assests/css.png",
 			}
 		  ]
 	    }
@@ -108,7 +112,7 @@ const languagesData = {
 	    hero: {
 		  greeting: "Merhaba! 👋",
 		  intro: " Ben bir ön yüz geliştiricisiyim. Sağlam ve ölçeklenebilir ön yüz ürünleri oluşturabilirim. Tanışalım!",
-		  profileImg: "/src/assets/images/cv.jpg",
+		  profileImg: "/assests/cv.jpg",
 		  profileName: "Ben Şükrü.",
 		  linkedInSVG: "",
 		  linkedInLink: "www.linkedin.com/in/şükrü-keleş-59a0a0228",
@@ -123,27 +127,31 @@ const languagesData = {
 		  images: [
 			{
 			    Alt: "JAVASCRIPT",
-			    SRC: "/assets/images/javascript.png",
+			    SRC: "/assests/javascript.png",
 			},
 			{
 			    Alt: "REACT",
-			    SRC: "/assets/images/react.png",
+			    SRC: "/assests/react.png",
 			},
 			{
 			    Alt: "REDUX",
-			    SRC: "/assets/images/redux.png",
+			    SRC: "/assests/redux.png",
 			},
 			{
 			    Alt: "NODE",
-			    SRC: "/assets/images/node.png",
+			    SRC: "/assests/node.png",
 			},
 			{
 			    Alt: "VS CODE",
-			    SRC: "/assets/images/vscode.png",
+			    SRC: "/assests/vscode.png",
 			},
 			{
 			    Alt: "FIGMA",
-			    SRC: "/assets/images/figma.png",
+			    SRC: "/assests/figma.png",
+			},
+			{
+			    Alt: "CSS",
+			    SRC: "/assests/css.png",
 			}
 		  ]
 	    }

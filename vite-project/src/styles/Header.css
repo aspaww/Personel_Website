@@ -7,7 +7,11 @@
     background-color: #F4F4F4;
     /* Varsayılan metin rengi tarayıcı varsayılana bırakıldı */
   }
-  
+  .profile-img{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+  }
   /* Dark mod için header */
   .dark .header {
     background-color: #2A262B;
