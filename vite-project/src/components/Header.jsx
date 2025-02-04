@@ -32,7 +32,7 @@ export default function Header() {
               {/* Profil resmi ve detayları kapsayıcı; küçük ekranlarda alt alta, lg'de yan yana */}
               <div className="profile-box">
                 <a
-                  href="https://drive.google.com/file/d/15Rh6WwHDfxrFNv0vDYdSp5FpteQjK1U9/view?usp=sharing"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                 >
