@@ -87,7 +87,7 @@ const languagesData = {
 			    viewLink: "https://github.com/aspaww/Pizza",
 			    appText: "Go to app ->",
 			    appLink: "https://pizza-ecru-nine.vercel.app/",
-			    imgLink: "assets/images/reactPizza.png",
+			    imgLink: "/assests/reactPizza.png",
 			},
 		  ],
 	    },
